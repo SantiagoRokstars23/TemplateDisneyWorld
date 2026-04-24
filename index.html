@@ -11,24 +11,42 @@
 
     <!-- NAVBAR -->
     <nav class="navbar">
-        <div class="container nav-content">
-            <h2>Disney</h2>
-            <ul>
-                <li><a href="#shop">SHOP</a></li>
-                <li><a href="#disney-plus">DISNEY+</a></li>
-                <li><a href="#movies">MOVIES</a></li>
-                <li><a href="#parks-and-travel">PARKS</a></li>
-                <li><a href="#more">MORE</a></li>
-            </ul>
+        <div style="display: flex;
+    justify-content: space-between;">
+            <div class="container nav-content">
+                <img src="images/logo.png" alt="">
+                <ul>
+
+                    <li><a href="#disney-plus"><b>DISNEY+</b></a></li>
+                    <li><a href="#parks-and-travel"><b>PARKS & TRAVEL</b></a></li>
+                    <li><a href="#movies"><b>MOVIES</b></a></li>
+                    <li><a href="#shop"><b>SHOP</b></a></li>
+                    <li><a href="#more"><b>MORE</b></a></li>
+                </ul>
+            </div>
+            <div class="nav-content-search">
+                <p>LOG IN</p>
+                <div class="search-box">
+                    <input type="text" placeholder="Search">
+                    <span class="icon">🔍</span>
+                </div>
+            </div>
         </div>
     </nav>
 
     <!-- BANNER -->
     <section class="banner">
+        <img class="banner-image" src="images/banner-background.png" alt="">
+
         <div class="banner-content">
-            <h1>Snow White</h1>
+            <img class="banner-img-title" src="images/snow-white.png" alt="">
             <p>Experience Snow White in theaters</p>
-            <button class="btn">Get Tickets</button>
+
+            <div class="banner-buttons">
+                <button class="btn1"><b>GET TICKETS NOW</b></button>
+                <button class="btn2"><b>LEARN MORE</b></button>
+            </div>
+
         </div>
     </section>
 
@@ -89,19 +107,21 @@
 
         <!-- MORE -->
         <section id="more">
-                <img class="imgMore" src="images/more-background.jpeg">
-                <div class="text-box">
-                    <h1>GET MORE DISNEY EVERY DAY</h1>
-                    <h3>Special ofters</h3>
-                    <p>Earn $400 $300 statements credit</p>
-                    <p>New Disney Premier Visa Cardmembers only</p>
-                    <h3>Special offers and financing available</h3>
-                    <p>Enjoy 0% promotional APR for 6 mounts on select Disney vacation packages</p>
-                    <p>Terms apply</p>
-                    <button class="btnFooter">
-                        <b>LEARN MORE</b>
-                    </button>
-                </div>
+            <img class="imgMore" src="images/more-background.jpeg">
+
+            <div class="text-box">
+                <h1>GET MORE DISNEY EVERY DAY</h1>
+                <h3>Special offers</h3>
+                <p>Earn $400 $300 statements credit</p>
+                <p>New Disney Premier Visa Cardmembers only</p>
+                <h3>Special offers and financing available</h3>
+                <p>Enjoy 0% promotional APR for 6 months</p>
+                <p>Terms apply</p>
+
+                <button class="btnFooter">
+                    <b>LEARN MORE</b>
+                </button>
+            </div>
         </section>
 
     </main>
